@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../images/bg.jpg);
+    background-color: #9D9185;
+    align-items: center;
+    display: flex;
+    background-repeat: no-repeat;
+}
+.Container{
+    width: 750px;
+    height: 800px;
+    margin: auto;
+    align-items: center; 
+    display: flex;
+}
+.Main{
+    width: 700px;
+    height: auto;
+    margin: auto;
+}
+.Preheader{
+    background: url(../images/top_box.gif);
+    height: 19px;;
+    width: 700px;
+    margin: auto;
+}
+.Header{
+    height: 51px;
+    width: 700px;
+    background-color: white;
+}
+.HeaderTitle{
+    background: url(../images/menu_bg.gif);
+    width: 663px;
+    height: 51px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.HeaderTitle a{
+    color: #655445;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+.Content{
+    width: 700px;
+    height: auto;
+    background-color: white;
+}
+.MakeQuiz{
+    color: #446371;
+    width: 633px;
+    height: auto;
+    margin: auto;
+    font-family: sans-serif;
+}
+.QuestionName{
+    display: flex;
+}
+.QuestionName > div{
+    padding: 30px 0 5px;
+}
+.QuestionName textarea{
+    height: 150px;
+    margin-left: 10px;
+    width: 500px;
+}
+.Answer{
+    display: flex;
+}
+.optionQues{
+    padding-bottom: 60px;
+}
+.EnterText{
+    padding-bottom: 5px;
+}
+.EnterText textarea{
+    width: 500px;
+    margin-left: 13px;
+    height: 70px;
+}
+.ChooseResult{
+    display: flex;
+}
+.Option{
+    display: flex;
+}
+.Option > div{
+    padding-right: 10px;
+}
+.ButtonSave{
+    padding: 10px 0 40px 80px;
+}
+.ButtonSave input{
+    font-weight: bold;
+    width: 50px;
+    height: 25px;
+}
+.alert{
+    color: red;
+}
+.alertSuccess{
+    font-size: 20px;
+    color: green;
+}

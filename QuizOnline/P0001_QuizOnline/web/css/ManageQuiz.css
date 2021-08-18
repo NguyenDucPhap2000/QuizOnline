@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../images/bg.jpg);
+    background-color: #9D9185;
+    height: 700px;
+    align-items: center;
+    display: flex;
+    background-repeat: no-repeat;
+}
+.Container{
+    width: 750px;
+    height: 500px;
+    margin: auto;
+    align-items: center; 
+    display: flex;
+}
+.Main{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+}
+.Preheader{
+    background: url(../images/top_box.gif);
+    height: 19px;;
+    width: 700px;
+    margin: auto;
+}
+.Header{
+    height: 51px;
+    width: 700px;
+    background-color: white;
+}
+.HeaderTitle{
+    background: url(../images/menu_bg.gif);
+    width: 663px;
+    height: 51px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.HeaderTitle a{
+    color: #655445;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+.Content{
+    width: 700px;
+    height: auto;
+    background-color: white;
+}
+.Manage{
+    color: #446371;
+    width: 633px;
+    height: auto;
+    margin: auto;
+    font-family: sans-serif;
+}
+.NumberQuestion{
+    padding: 30px 0;
+    display: flex;
+}
+.NumberQuestion span{
+    color: blue;
+}
+.LeftAndRight{
+    display: flex;
+}
+.left{
+    width: 70%;
+}
+.Ques p{
+    color: blue;
+}
+.QuestionNumber p{
+    padding-bottom: 10px;
+}
+.right{
+    width: 30%;
+}
+.right > h3{
+    color: green;
+}
+.DateCreated p{
+    color: blue;
+}
+.DateSQL p {
+    padding-bottom: 10px;
+}
+.DateAndDelete{
+    display: flex;
+    justify-content: space-between;
+}
+.DateAndDelete input.idQuestion{
+    display: none;
+}
+.paging{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+.paging a{
+    height: 26px;
+    margin-right: 10px;
+    width: 26px;
+    border: 1px solid black;
+}
+.paging .choosen{
+    background-color: yellow;
+}

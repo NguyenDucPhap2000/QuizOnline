@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../images/bg.jpg);
+    background-color: #9D9185;
+    height: 700px;
+    align-items: center;
+    display: flex;
+    background-repeat: no-repeat;
+}
+.Container{
+    width: 750px;
+    height: 500px;
+    margin: auto;
+    align-items: center; 
+    display: flex;
+}
+.Main{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+}
+.Preheader{
+    background: url(../images/top_box.gif);
+    height: 19px;;
+    width: 700px;
+    margin: auto;
+}
+.Header{
+    height: 51px;
+    width: 700px;
+    background-color: white;
+}
+.HeaderTitle{
+    background: url(../images/menu_bg.gif);
+    width: 663px;
+    height: 51px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.HeaderTitle a{
+    color: #655445;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+.Content{
+    width: 700px;
+    height: auto;
+    background-color: white;
+}
+.Result{
+    color: #446371;
+    width: 633px;
+    height: 300px;
+    margin: auto;
+    font-family: sans-serif;
+}
+.Score{
+    padding: 30px 0;
+    display: flex;
+}
+.Score > span{
+    color: blue;
+    padding: 0 6px;
+}
+.notPass{
+    color: red;
+}
+.pass{
+    color: blue;
+}
+.AnotherTest input{
+    font-weight: bold;
+    width: 50px;
+    height: 25px;
+}

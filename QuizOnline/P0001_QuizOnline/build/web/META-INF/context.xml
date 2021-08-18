@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/P0001_QuizOnline">
+    <Environment name="serverName" type="java.lang.String" value="LAPTOP-36GAUB4A"/>
+    <Environment name="dbName" type="java.lang.String" value="QuizOnline"/>
+    <Environment name="portNumber" type="java.lang.String" value="1433"/>
+    <Environment name="username" type="java.lang.String" value="sa"/>
+    <Environment name="password" type="java.lang.String" value="123456"/>
+</Context>

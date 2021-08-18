@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../images/bg.jpg);
+    background-color: #9D9185;
+    height: 700px;
+    align-items: center;
+    display: flex;
+    background-repeat: no-repeat;
+}
+.Container{
+    width: 750px;
+    height: 500px;
+    margin: auto;
+    align-items: center; 
+    display: flex;
+}
+.Main{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+}
+.Preheader{
+    background: url(../images/top_box.gif);
+    height: 19px;;
+    width: 700px;
+    margin: auto;
+}
+.Header{
+    height: 51px;
+    width: 700px;
+    background-color: white;
+}
+.HeaderTitle{
+    background: url(../images/menu_bg.gif);
+    width: 663px;
+    height: 51px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.HeaderTitle a{
+    color: #655445;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+.LoginForm{
+    width: 700px;
+    height: 418px;
+    background-color: white;
+}
+.TitleandForm{
+    width: 663px;
+    height: 700px;
+    margin: auto;
+    padding-left: 30px;
+    font-family: sans-serif;
+}
+.Title{
+    padding: 30px 0;
+    color: #00008C;
+    font-weight: bold;
+}
+.TextLeft p{
+    padding: 0px 10px 6px 0;
+}
+.Form{
+    color: #446371;
+    display: flex;
+}
+.InputRight{
+    padding-left: 50px;
+}
+.InputRight > h4.fail{
+    color: red;
+}
+.InputRight > h4.success{
+    color: green;
+}
+.textInput{
+    padding-bottom: 5px;
+}
+.textInput input{
+    background-color: #FAFFBD;
+    width: 200px;
+}
+.SelectOption{
+    padding-bottom: 5px;
+}
+.SelectOption select{
+    width: 100px;
+}
+.textEmail{
+    padding-bottom: 5px;
+}
+.textEmail input{
+    width: 200px;
+}
+.submit input{
+    font-weight: bold;
+    width: 70px;
+    height: 25px;
+}

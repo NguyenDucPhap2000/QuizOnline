@@ -1,0 +1,26 @@
+.Preheader{
+    background: url(../images/top_box.gif);
+    height: 19px;;
+    width: 700px;
+    margin: auto;
+}
+.Header{
+    height: 51px;
+    width: 700px;
+    background-color: white;
+}
+.HeaderTitle{
+    background: url(../images/menu_bg.gif);
+    width: 663px;
+    height: 51px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.HeaderTitle a{
+    color: #655445;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}

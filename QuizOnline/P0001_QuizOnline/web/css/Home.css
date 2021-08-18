@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../images/bg.jpg);
+    background-color: #9D9185;
+    height: 700px;
+    align-items: center;
+    display: flex;
+    background-repeat: no-repeat;
+}
+.Container{
+    width: 750px;
+    height: 500px;
+    margin: auto;
+    align-items: center; 
+    display: flex;
+}
+.Main{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+}
+.LoginForm{
+    width: 700px;
+    height: 418px;
+    background-color: white;
+}
+.TitleandForm{
+    width: 663px;
+    height: 700px;
+    margin: auto;
+    padding-left: 30px;
+    font-family: sans-serif;
+}
+.Title{
+    padding: 30px 0;
+    color: #00008C;
+    font-weight: bold;
+}
+.UserAndPass p{
+    padding: 0px 10px 6px 0;
+}
+.Form{
+    color: #446371;
+    display: flex;
+}
+.textInput{
+    padding-bottom: 5px;
+}
+.textInput input{
+    background-color: #FAFFBD;
+}
+.SignInHome input{
+    font-weight: bold;
+}
+.SignInHome a {
+    color: #446371;
+    text-decoration: none;
+}
+.Form > div > h4{
+    color: red;
+}

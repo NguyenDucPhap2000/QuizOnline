@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../images/bg.jpg);
+    background-color: #9D9185;
+    height: 700px;
+    align-items: center;
+    display: flex;
+    background-repeat: no-repeat;
+}
+.Container{
+    width: 750px;
+    height: 500px;
+    margin: auto;
+    align-items: center; 
+    display: flex;
+}
+.Main{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+}
+.Preheader{
+    background: url(../images/top_box.gif);
+    height: 19px;;
+    width: 700px;
+    margin: auto;
+}
+.Header{
+    height: 51px;
+    width: 700px;
+    background-color: white;
+}
+.HeaderTitle{
+    background: url(../images/menu_bg.gif);
+    width: 663px;
+    height: 51px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.HeaderTitle a{
+    color: #655445;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+.Content{
+    width: 700px;
+    height: 418px;
+    background-color: white;
+}
+.TakeQuiz{
+    width: 633px;
+    height: auto;
+    margin: auto;
+    font-family: sans-serif;
+    color: #446371;
+}
+.TitleQuiz{
+    padding: 30px 0;
+}
+.TitleQuiz span{
+    color: blue;
+    font-weight: 500;
+}
+.NumberQues input{
+    width: 80px;
+}
+.NumberQues > span{
+    color: red;
+}
+.Button{
+    text-align: center;
+}
+.Button input{
+    font-weight: bold;
+    width: 50px;
+    height: 25px;
+}
+.ContentStart{
+    width: 700px;
+    height: 418px;
+    background-color: white;
+}
+.TakeQuizStart{
+    width: 633px;
+    height: auto;
+    margin: auto;
+    font-family: sans-serif;
+    color: #446371;
+}
+.TitleQuizStart{
+    padding: 30px 0 0;
+}
+.TitleQuizStart span{
+    color: blue;
+    font-weight: 500;
+}
+.TimeRemaining{
+    padding: 10px 0 30px;
+    text-align: center;
+}
+.TimeRemaining span{
+    color: red;
+}
+.TimeRemaining input{
+    display: none;
+}
+.textQuestion{
+    display: none;
+}
+.Button{
+    text-align: center;
+    padding-left: 100px;
+}
+.Button input{
+    font-weight: bold;
+    width: 50px;
+    height: 25px;
+}
+.pageindex{
+    display: none;
+}
+.ContentResult{
+    width: 700px;
+    height: auto;
+    background-color: white;
+}
+.Result{
+    color: #446371;
+    width: 633px;
+    height: 300px;
+    margin: auto;
+    font-family: sans-serif;
+}
+.Score{
+    padding: 30px 0;
+    display: flex;
+}
+.Score > span{
+    color: blue;
+    padding: 0 6px;
+}
+.notPass{
+    color: red;
+}
+.pass{
+    color: blue;
+}
+.AnotherTest input{
+    font-weight: bold;
+    width: 50px;
+    height: 25px;
+}
